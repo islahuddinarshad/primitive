@@ -75,7 +75,7 @@ public class Breaker {
 			    else if ( number == 7 ) {
 				    flow = "" + number1 + number2 + number3 + number4 + number5 + number6 + number7;
 			    }
-		    	else if ( number == 8 ) {
+                else if ( number == 8 ) {
 			    	flow = "" + number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8;
 			    }
 			    else if ( number == 9 ) {
