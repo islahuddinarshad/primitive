@@ -40,6 +40,7 @@ public class Breaker {
         Scanner guess = new Scanner( System.in );
 			
         String guessNumber = guess.next();
+
 			
 			for ( int i = 0; i < Integer.MAX_VALUE; i++ ) {
 				
@@ -79,7 +80,10 @@ public class Breaker {
 			    }
 			    else if ( number == 9 ) {
 				    flow = "" + number1 + number2 + number3 + number4 + number5 + number6 + number7 + number8 + number9;
-			}
+			    }
+			    else {
+			    	System.out.println( " You did not enter a valid number.");
+			    }
 			
 			System.out.println( flow );
 			
